@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/rogue-and-roll-app/sw.js', { scope: '/rogue-and-roll-app/' })})}
